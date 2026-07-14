@@ -160,14 +160,17 @@ address a {
 }
 
 .back-to-top {
-    float: right;
-    text-decoration: none;
-    font-weight: 600;
-    color: #333;
-    margin-bottom: 15px;
+    text-align: right;
+    margin: 30px 40px 10px 0;
 }
 
-.back-to-top:hover {
+.back-to-top a {
+    text-decoration: none;
+    color: #3b3b3b;
+    font-weight: 500;
+}
+
+.back-to-top a:hover {
     text-decoration: underline;
 }
 
